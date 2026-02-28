@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Large binary data — not committed (see README for setup)
+data/pdf_files/
+data/vector_store/
+
+# Claude Code internals
+.claude/
+tmpclaude-*
