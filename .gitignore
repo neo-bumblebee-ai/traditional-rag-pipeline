@@ -10,7 +10,8 @@ wheels/
 .venv
 
 # Large binary data — not committed (see README for setup)
-data/pdf_files/
+data/pdf_files/*
+!data/pdf_files/.gitkeep
 data/vector_store/
 
 # Claude Code internals
