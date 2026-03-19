@@ -12,6 +12,10 @@ wheels/
 # Large binary data — not committed (see README for setup)
 data/pdf_files/*
 !data/pdf_files/.gitkeep
+# Track sample PDFs so users can run immediately after cloning
+!data/pdf_files/breville_barista_express_BES870.pdf
+!data/pdf_files/breville_barista_express_impress_BES876.pdf
+!data/pdf_files/breville_oracle_BES980.pdf
 data/vector_store/
 
 # Claude Code internals
